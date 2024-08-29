@@ -1,0 +1,74 @@
+[0m18:56:55.012734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b5c770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cf7170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10410d8b0>]}
+
+
+============================== 18:56:55.015168 | 74f6c5d0-021c-4de6-a320-5d7a2b53bdaa ==============================
+[0m18:56:55.015168 [info ] [MainThread]: Running with dbt=1.8.5
+[0m18:56:55.015456 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/mek/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:57:53.211317 [debug] [MainThread]: Starter project path: /Users/mek/Documents/Personal/Projects/✅GitHub/Medallion_DataWarehouse_GitHub/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m18:57:53.228310 [info ] [MainThread]: 
+Your new dbt project "medallion_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:57:53.229362 [info ] [MainThread]: Setting up your profile.
+[0m18:58:18.516577 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m18:58:18.517010 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m18:58:18.517161 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m19:03:19.142049 [info ] [MainThread]: Profile medallion_dbt written to /Users/mek/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:03:19.178931 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 384.2011, "process_user_time": 2.959179, "process_kernel_time": 0.858827, "process_mem_max_rss": "181616640", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m19:03:19.180180 [debug] [MainThread]: Command `dbt init` succeeded at 19:03:19.179993 after 384.20 seconds
+[0m19:03:19.181517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e5ffb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124bf48c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124d49970>]}
+[0m19:03:19.182043 [debug] [MainThread]: Flushing usage events
+[0m19:05:25.986147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b1d370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1114e1be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1114e1850>]}
+
+
+============================== 19:05:25.988897 | e820f314-eb83-4dfd-a005-6e609320d36c ==============================
+[0m19:05:25.988897 [info ] [MainThread]: Running with dbt=1.8.5
+[0m19:05:25.989232 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mek/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:05:25.997729 [info ] [MainThread]: dbt version: 1.8.5
+[0m19:05:25.997927 [info ] [MainThread]: python version: 3.12.4
+[0m19:05:25.998068 [info ] [MainThread]: python path: /Users/mek/Documents/Personal/Projects/✅GitHub/Medallion_DataWarehouse_GitHub/venv/bin/python3.12
+[0m19:05:25.998271 [info ] [MainThread]: os info: macOS-14.5-arm64-arm-64bit
+[0m19:05:26.001421 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m19:05:26.057449 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m19:05:26.057681 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m19:05:26.057821 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m19:05:26.889666 [info ] [MainThread]: Using profiles dir at /Users/mek/.dbt
+[0m19:05:26.889919 [info ] [MainThread]: Using profiles.yml file at /Users/mek/.dbt/profiles.yml
+[0m19:05:26.890068 [info ] [MainThread]: Using dbt_project.yml file at /Users/mek/Documents/Personal/Projects/✅GitHub/Medallion_DataWarehouse_GitHub/dbt_project.yml
+[0m19:05:26.890205 [info ] [MainThread]: Configuration:
+[0m19:05:26.890339 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:05:26.890469 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:05:26.890592 [info ] [MainThread]: Required dependencies:
+[0m19:05:26.890751 [debug] [MainThread]: Executing "git --help"
+[0m19:05:26.906257 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:05:26.906751 [debug] [MainThread]: STDERR: "b''"
+[0m19:05:26.906922 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:05:26.907074 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:05:26.907285 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:05:26.907411 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_practice", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m19:05:26.907537 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/mek/Documents/Personal/Projects/✅GitHub/Medallion_DataWarehouse_GitHub/dbt_project.yml> not found
+
+[0m19:05:26.909618 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.96199185, "process_user_time": 2.671425, "process_kernel_time": 0.425535, "process_mem_max_rss": "202604544", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m19:05:26.909999 [debug] [MainThread]: Command `dbt debug` failed at 19:05:26.909946 after 0.96 seconds
+[0m19:05:26.910265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101fc830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15fb20260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15fcc9280>]}
+[0m19:05:26.910474 [debug] [MainThread]: Flushing usage events
